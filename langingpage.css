@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    display: flex;
+    padding: 40px;
+}
+
+.logo{
+    width: 40%;
+}
+
+.attribute{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#pic{
+    width:42%;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.container{
+    width: 100%;
+    height: 570px;
+    background-color: rgb(239, 209, 8);
+    display: flex;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    height: 570px;
+    /* background-color: aqua; */
+    padding-top: 120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 80px ;
+}
+h2{
+    font-size: 80px;
+}
+h3{
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.text{
+   font-weight: 900;
+}
+
+.word{
+    font-family:;
+}
+
+.gun{
+    margin-top: 150px;
+    width:20%;
+    /* background-color: aqua; */
+
+}
+#gunpic{
+    margin-left: 70px;
+}
+
+#gunpic:hover{
+    margin-left: 70px;
+    animation-name: move;
+    animation-duration: 1s;
+}
+@keyframes move {
+    0%   {rotate: 0deg;}
+    100% {rotate: -30deg;}
+}
+
+
