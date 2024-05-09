@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    display: flex;
+    padding: 30px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.attribute{
+    width: 70%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+
+}
+
+li{
+    list-style-type: none;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#pic{
+    width:42%;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.container{
+    width: 100%;
+    height: 570px;
+    background-color: rgb(239, 209, 8);
+    display: flex;
+}
+
+.content{
+    width: 58%;
+    margin: auto;
+    height: 570px;
+    /* background-color: aqua; */
+    padding-top: 120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 67px ;
+}
+h2{
+    font-size: 72px;
+}
+h3{
+    font-size: 59px;
+    margin-left: 10px;
+}
+
+.text{
+   font-weight: 900;
+}
+
+.emoji{
+    height:50px;
+    width:50px;
+    opacity: 0;
+}
+.emoji.e{
+    margin-left: 58px;
+}
+
+
+.gun{
+    /* margin-top: 150px; */
+    width:15%;
+    /* background-color: aqua; */
+
+}
+#gunpic{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#gunpic:hover{
+    /* margin-left: 70px; */
+    animation-name: move;
+    animation-duration: 1s;
+}
+@keyframes move {
+    0%   {rotate: 0deg;}
+    100% {rotate: -30deg;}
+}
+
+.box{
+    width:100px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.box.b{
+    width: 144px;
+}
+
+.box:hover img.emoji{
+    opacity:1;
+}
+
+#cup{
+    width: 120px;
+    height:220px;
+    margin-top: 320px;
+}
+
+.coffee{
+    width:15%;
+}
+
+#shot{
+    width:50px;
+    height:20px;
+    margin-left: 270px;
+    margin-top: 100px;
+}
+#space{
+    width:20px;
+    height: 30px;
+}
+
+
+
+
+
